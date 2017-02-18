@@ -2,9 +2,6 @@
 title: Daily Planet
 timezone: UTC
 collections:
-  blah:
-    title: Blah
-    output: true
   posts:
     title: Posts
     output: true
