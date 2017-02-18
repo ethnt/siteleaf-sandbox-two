@@ -1,13 +1,7 @@
 ---
-title: Ethan Turkeltaub
+title: Daily Planet
 timezone: UTC
 collections:
-  docs:
-    title: Docs
-    output: true
-  people:
-    title: People
-    output: true
   posts:
     title: Posts
     output: true
@@ -26,4 +20,4 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: "/:fooi"
+permalink: pretty
