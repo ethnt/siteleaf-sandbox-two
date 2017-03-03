@@ -1,7 +1,3 @@
-module Sleep
-  class Generator < Jekyll::Generator
-    def generate(site)
-      sleep(600)
-    end
-  end
+Jekyll::Hooks.register :posts, :post_render do |post|
+  sleep 59
 end
